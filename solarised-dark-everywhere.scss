@@ -1,0 +1,12 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document url-prefix(http://), url-prefix(https://), url-prefix(ftp://), url-prefix(file://), url(about:blank), 
+regexp("about:(?!addons|app-manager|config|customizing|stylish-edit|downloads|permissions|preferences|sync-tabs|webrtc).*")
+
+// Drop the below regex, after a comma, just before the opening curly bracket above, to exclude websites from solarization: 
+//regexp("https?://(www\.)?(?!(userstyles\.org|docs\.google|github)\..*).*")
+{
+    @import 'style'
+}
+
+@import 'fixes'
