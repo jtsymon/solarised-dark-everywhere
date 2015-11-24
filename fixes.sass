@@ -1,11 +1,30 @@
 @import 'colours'
 
 @-moz-document domain("reddit.com")
-  .RES-keyNav-activeElement
+  .RES-keyNav-activeElement,
+  .commentarea .RES-keyNav-activeElement .md
     background-color: $base02 !important
     ul li,
     li ul
       background-color: inherit !important
+  .res-commentBoxes .thing.comment .comment
+    background-color: $base03 !important
+    .comment
+      background-color: $base03 !important
+      .comment
+        background-color: $base03 !important
+        .comment
+          background-color: $base03 !important
+          .comment
+            background-color: $base03 !important
+            .comment
+              background-color: $base03 !important
+              .comment
+                background-color: $base03 !important
+                .comment
+                  background-color: $base03 !important
+                  .comment
+                    background-color: $base03 !important
   .listing-chooser
     display: none
 
