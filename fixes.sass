@@ -36,3 +36,25 @@
 @-moz-document domain("slack.com")
   .day_divider
     background-color: $base03 !important
+
+@-moz-document domain("youtube.com")
+  #masthead-positioner
+    background-color: $base03 !important
+  .ytp-play-progress
+    background-color: $base01 !important
+  .ytp-hover-progress
+    background-color: $base02 !important
+  .ytp-chrome-controls
+    background-color: rgba($base02, .7) !important
+    .ytp-button
+      background-color: inherit !important
+      &:hover
+        background-color: $base02 !important
+  .ytp-tooltip-text-wrapper,
+  .ytp-tooltip-title
+    background-color: transparent !important
+  .ytp-tooltip-text
+    background-color: rgba($base02, .7) !important
+  // Youtube Annotation
+  #movie_player-html5 .annotation
+    background: $base02 !important
